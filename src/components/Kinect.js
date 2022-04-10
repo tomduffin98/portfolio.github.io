@@ -27,7 +27,7 @@ function Kinect({ text }) {
               ensured that the image processing functionality was correct.
             </p>
           </PText>
-          <img src="./images/kinect/one.png" />
+          <img src="portfolio.github.io/images/kinect/one.png" />
         </SliceRight2>
         <Fade right delay={200}>
           <SliceLeft>
