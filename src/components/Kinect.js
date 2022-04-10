@@ -31,7 +31,7 @@ function Kinect({ text }) {
         </SliceRight2>
         <Fade right delay={200}>
           <SliceLeft>
-            <img src="./images/kinect/ten.png" />
+            <img src="portfolio.github.io/images/kinect/ten.png" />
             <PText className="left">
               <p>
                 By extracting infomation from the depth camera & developing good
@@ -59,10 +59,10 @@ function Kinect({ text }) {
               regress/progress.
             </p>
           </PText>
-          <img src="./images/kinect/three.png" />
+          <img src="portfolio.github.io/images/kinect/three.png" />
         </SliceRight2>
         <SliceLeft2>
-          <img src="./images/kinect/nine.png" />
+          <img src="portfolio.github.io/images/kinect/nine.png" />
           <PText className="left">
             <p>
               As image processing applications require fast memory access to run

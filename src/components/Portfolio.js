@@ -33,11 +33,11 @@ function Portfolio({ text }) {
               inject animations and icons in a simple but effective manner.
             </p>
           </PText>
-          <img src="images/portfolio/one.png" />
+          <img src="portfolio.github.io/images/portfolio/one.png" />
         </SliceRight2>
         <Fade right delay={200}>
           <SliceLeft>
-            <img src="images/portfolio/two.png" />
+            <img src="portfolio.github.io/images/portfolio/two.png" />
             <PText className="left">
               <p>
                 I also learned about styled components to inject CSS into
