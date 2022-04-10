@@ -38,7 +38,7 @@ function Paylist({ text }) {
               Framework to ensure all API endpoints worked as expected.
             </p>
           </PText>
-          <img src="images/paylist/1.png" />
+          <img src="images/paylist/one.png" />
         </SliceRight2>
         <Fade>
           <IconFooter>
