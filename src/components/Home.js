@@ -19,7 +19,7 @@ function Home() {
           <PImage>
             <Fade left>
               <AnimatePic>
-                <img src="/images/prof_img.png" />
+                <img src="images/prof_img.png" />
 
                 <MyLinks>
                   <CardWrapper>

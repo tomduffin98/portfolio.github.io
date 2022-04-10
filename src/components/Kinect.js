@@ -27,11 +27,11 @@ function Kinect({ text }) {
               ensured that the image processing functionality was correct.
             </p>
           </PText>
-          <img src="/images/Kinect/1.png" />
+          <img src="images/Kinect/1.png" />
         </SliceRight2>
         <Fade right delay={200}>
           <SliceLeft>
-            <img src="/images/Kinect/10.png" />
+            <img src="images/Kinect/10.png" />
             <PText className="left">
               <p>
                 By extracting infomation from the depth camera & developing good
@@ -59,10 +59,10 @@ function Kinect({ text }) {
               regress/progress.
             </p>
           </PText>
-          <img src="/images/Kinect/3.png" />
+          <img src="images/Kinect/3.png" />
         </SliceRight2>
         <SliceLeft2>
-          <img src="/images/Kinect/9.png" />
+          <img src="images/Kinect/9.png" />
           <PText className="left">
             <p>
               As image processing applications require fast memory access to run
