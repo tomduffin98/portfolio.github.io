@@ -10,6 +10,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import Fade from "react-reveal/Fade";
+import prof from "./prof_img.png";
 
 function Home() {
   return (
@@ -19,7 +20,8 @@ function Home() {
           <PImage>
             <Fade left>
               <AnimatePic>
-                <img src="portfolio.github.io/images/prof_img.png" />
+                {/* <img src="images/prof_img.png" /> */}
+                <img src={prof} />
 
                 <MyLinks>
                   <CardWrapper>

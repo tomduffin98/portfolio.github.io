@@ -6,6 +6,8 @@ import makeCarousel from "react-reveal/makeCarousel";
 import withReveal from "react-reveal/withReveal";
 import { FaReact, FaCss3, FaHtml5 } from "react-icons/fa";
 import { SiJavascript, SiHtml5 } from "react-icons/si";
+import img1 from "./portfolio/one.png";
+import img2 from "./portfolio/two.png";
 
 function Portfolio({ text }) {
   return (
@@ -33,11 +35,11 @@ function Portfolio({ text }) {
               inject animations and icons in a simple but effective manner.
             </p>
           </PText>
-          <img src="portfolio.github.io/images/portfolio/one.png" />
+          <img src={img1} />
         </SliceRight2>
         <Fade right delay={200}>
           <SliceLeft>
-            <img src="portfolio.github.io/images/portfolio/two.png" />
+            <img src={img2} />
             <PText className="left">
               <p>
                 I also learned about styled components to inject CSS into

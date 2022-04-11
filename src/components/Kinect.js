@@ -6,6 +6,10 @@ import makeCarousel from "react-reveal/makeCarousel";
 import withReveal from "react-reveal/withReveal";
 import { FaXbox } from "react-icons/fa";
 import { SiCsharp, SiSqlite, SiXaml, SiWindows } from "react-icons/si";
+import img1 from "./kinect/one.png";
+import img10 from "./kinect/ten.png";
+import img3 from "./kinect/three.png";
+import img9 from "./kinect/nine.png";
 
 function Kinect({ text }) {
   return (
@@ -27,11 +31,11 @@ function Kinect({ text }) {
               ensured that the image processing functionality was correct.
             </p>
           </PText>
-          <img src="portfolio.github.io/images/kinect/one.png" />
+          <img src={img1} />
         </SliceRight2>
         <Fade right delay={200}>
           <SliceLeft>
-            <img src="portfolio.github.io/images/kinect/ten.png" />
+            <img src={img10} />
             <PText className="left">
               <p>
                 By extracting infomation from the depth camera & developing good
@@ -59,10 +63,10 @@ function Kinect({ text }) {
               regress/progress.
             </p>
           </PText>
-          <img src="portfolio.github.io/images/kinect/three.png" />
+          <img src={img3} />
         </SliceRight2>
         <SliceLeft2>
-          <img src="portfolio.github.io/images/kinect/nine.png" />
+          <img src={img9} />
           <PText className="left">
             <p>
               As image processing applications require fast memory access to run

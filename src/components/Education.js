@@ -3,6 +3,9 @@ import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 import withReveal from "react-reveal/withReveal";
 import Rotate from "react-reveal/Rotate";
+import code from "./education/code.png";
+import arch from "./education/arch.jpg";
+import data from "./education/data.jpg";
 
 function Education() {
   return (
@@ -115,7 +118,7 @@ const Background = styled.div`
   position: absolute;
 
   &.arch {
-    background-image: url("images/education/arch.jpg");
+    background-image: url(${arch});
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,7 +126,7 @@ const Background = styled.div`
     opacity: 0.15;
   }
   &.code {
-    background-image: url("images/education/code.png");
+    background-image: url(${code});
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -131,7 +134,7 @@ const Background = styled.div`
     opacity: 0.3;
   }
   &.data {
-    background-image: url("images/education/data.jpg");
+    background-image: url(${data});
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;

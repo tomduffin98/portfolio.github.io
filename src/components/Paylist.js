@@ -6,6 +6,7 @@ import makeCarousel from "react-reveal/makeCarousel";
 import withReveal from "react-reveal/withReveal";
 import { FaJava, FaAws, FaDatabase } from "react-icons/fa";
 import { SiPostgresql, SiSpring, SiPostman } from "react-icons/si";
+import img from "./paylist/one.png";
 
 function Paylist({ text }) {
   return (
@@ -38,7 +39,7 @@ function Paylist({ text }) {
               Framework to ensure all API endpoints worked as expected.
             </p>
           </PText>
-          <img src="portfolio.github.io/images/paylist/one.png" />
+          <img src={img} />
         </SliceRight2>
         <Fade>
           <IconFooter>
