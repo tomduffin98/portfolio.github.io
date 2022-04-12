@@ -6,7 +6,7 @@ import makeCarousel from "react-reveal/makeCarousel";
 import withReveal from "react-reveal/withReveal";
 import { FaJava, FaAws, FaDatabase } from "react-icons/fa";
 import { SiPostgresql, SiSpring, SiPostman } from "react-icons/si";
-import img from "./paylist/one.png";
+import img from "./paylist/payone.png";
 
 function Paylist({ text }) {
   return (

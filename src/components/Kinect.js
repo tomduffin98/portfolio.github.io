@@ -6,10 +6,10 @@ import makeCarousel from "react-reveal/makeCarousel";
 import withReveal from "react-reveal/withReveal";
 import { FaXbox } from "react-icons/fa";
 import { SiCsharp, SiSqlite, SiXaml, SiWindows } from "react-icons/si";
-import img1 from "./kinect/one.png";
-import img10 from "./kinect/ten.png";
-import img3 from "./kinect/three.png";
-import img9 from "./kinect/nine.png";
+import img1 from "./kinect/kinone.png";
+import img10 from "./kinect/kinten.png";
+import img3 from "./kinect/kinthree.png";
+import img9 from "./kinect/kinnine.png";
 
 function Kinect({ text }) {
   return (

@@ -6,8 +6,8 @@ import makeCarousel from "react-reveal/makeCarousel";
 import withReveal from "react-reveal/withReveal";
 import { FaReact, FaCss3, FaHtml5 } from "react-icons/fa";
 import { SiJavascript, SiHtml5 } from "react-icons/si";
-import img1 from "./portfolio/one.png";
-import img2 from "./portfolio/two.png";
+import img1 from "./portfolio/portone.png";
+import img2 from "./portfolio/porttwo.png";
 
 function Portfolio({ text }) {
   return (
