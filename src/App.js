@@ -10,13 +10,16 @@ function App() {
   useEffect(() => {
     const imgs = [
       "src/components/prof_img.png",
-      "src/components/kinect/one.png",
-      "src/components/kinect/ten.png",
-      "src/components/kinect/three.png",
-      "src/components/kinect/nine.png",
+      "src/components/kinectCopy/one.png",
+      "src/components/kinectCopy/ten.png",
+      "src/components/kinectCopy/three.png",
+      "src/components/kinectCopy/nine.png",
       "src/components/paylist/one.png",
       "src/components/portfolio/one.png",
-      "src/components/portfolio/one.png",
+      "src/components/portfolio/two.png",
+      "src/components/education/arch.jpg",
+      "src/components/education/code.png",
+      "src/components/education/data.jpg",
     ];
     cacheImages(imgs);
   }, []);
