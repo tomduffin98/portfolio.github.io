@@ -223,7 +223,7 @@ const Desc = styled.div`
   justify-content: flex-start;
   font-family: raleway;
   color: white;
-  font-size: 1.6vw;
+  font-size: 1.5vw;
   text-align: left;
   p {
     text-align: top;
