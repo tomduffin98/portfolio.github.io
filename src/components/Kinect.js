@@ -133,6 +133,13 @@ const PText = styled.div`
       padding: 0;
     }
   }
+  @media (max-width: 768px) {
+    p {
+      font-size: 1.2em;
+      line-height: 1.5em;
+      width: 100%;
+    }
+  }
 `;
 
 const KinectText = styled.div`
@@ -173,6 +180,16 @@ align-items:center;
     order:2;
   }
 }
+
+@media (max-width: 768px) {
+
+  img {
+    height:auto;
+    max-width:90%;
+  }
+  margin-top:1.5vh;
+
+}
 `;
 
 const SliceRight = styled.div`
@@ -192,6 +209,15 @@ align-items:center;
   justify-content:center;
   text-align:center;
 }
+@media (max-width: 768px) {
+
+  img {
+    height:auto;
+    max-width:90%;
+  }
+  margin-top:1.5vh;
+
+}
 `;
 
 const SliceRight2 = withReveal(SliceRight, <Fade left />);
@@ -210,6 +236,18 @@ const IconFooter = styled.div`
   }
   svg {
     font-size: 3em;
+  }
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 1em;
+    }
+    h4 {
+      font-size: 0.75em;
+    }
+    svg {
+      font-size: 3em;
+      margin: auto 10px auto 10px;
+    }
   }
 `;
 

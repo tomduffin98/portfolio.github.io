@@ -20,7 +20,6 @@ function Home() {
           <PImage>
             <Fade left>
               <AnimatePic>
-                {/* <img src="images/prof_img.png" /> */}
                 <img src={prof} />
 
                 <MyLinks>
@@ -183,12 +182,9 @@ const PImage = styled.div`
   }
 
   img {
-    //max-width: 65%;
     width: 70%;
     height: auto;
     border-radius: 10%;
-    //was white
-    //border: solid 2px white;
     border: solid 3px rgba(0, 255, 255, 1);
 
     @media (max-width: 768px) {

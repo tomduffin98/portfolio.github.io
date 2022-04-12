@@ -111,6 +111,7 @@ export default Education;
 const Container = styled.div`
   width: 100%;
   height: 100vh;
+  height: 100%;
 `;
 const Background = styled.div`
   width: 100%;
@@ -152,6 +153,9 @@ const Card = styled.div`
   position: relative;
   //border:
   border-radius: 2%;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
 `;
 
 const Text = styled.div`
@@ -180,6 +184,22 @@ const Text = styled.div`
   }
   h1 {
     text-align: center;
+  }
+  @media (max-width: 768px) {
+    font-size: 0.8em;
+    ul {
+      margin-left: 3%;
+      padding: 0;
+      li {
+        line-height: 2em;
+        line-height: 1.7em;
+      }
+    }
+
+    p {
+      text-align: center;
+      //line-height: 0.1em;
+    }
   }
 `;
 

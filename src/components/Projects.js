@@ -1,9 +1,6 @@
-//import React, { useEffect } from "react";
 import styled from "styled-components";
 import { useState } from "react";
-//import { Link } from "react-router-dom";
 import BtnProjects from "./BtnProjects.js";
-//import { FaFolder } from "react-icons/fa";
 import ActiveContainer from "./ActiveContainer.js";
 import Kinect from "./Kinect.js";
 import Portfolio from "./Portfolio.js";
@@ -87,29 +84,6 @@ const ShowingContainer = styled.div`
   padding-top: 35px;
 `;
 
-const KinectContainer = styled.div`
-  color: white;
-  display: flex;
-  flex-direction: row;
-  display: none;
-  //conditional display
-  ${({ active }) =>
-    active &&
-    `
-    display:flex;
-
-`}
-`;
-const OSContainer = styled.div`
-  color: white;
-`;
-const PAYLISTContainer = styled.div`
-  color: white;
-`;
-const PortfolioContainer = styled.div`
-  color: white;
-`;
-
 const ProjectContainer = styled.div`
   display: flex;
   width: 90%;
@@ -137,40 +111,14 @@ const ProjectContainer = styled.div`
 
 const ProjectSelector = styled.div`
   border-bottom: solid white 2px;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    button {
+      margin: 0 auto 20px auto;
+    }
+  }
 `;
-
-const TabSelector = styled.div`
-  display: flex;
-  padding-top: 2vh;
-  justify-content: flex-start;
-  //justify-content: center;
-  align-items: center;
-  width: 100%;
-`;
-
-// const StyledFaFolder = styled.div`
-//   display: flex;
-//   position: relative;
-//   width: 96px;
-//   height: 96px;
-//   justify-content: center;
-//   align-items: center;
-//   svg {
-//     position: absolute;
-//     padding: 0;
-//     margin: 0;
-//     font-size: 6em;
-//     color: white;
-//     transform: scale(1, -1);
-//   }
-//   span {
-//     position: absolute;
-//     font-weight: bold;
-//     color: black;
-//     left: 6%;
-//     top: 35%;
-//     font-size: 0.7em;
-//   }
-// `;
 
 export default Projects;
